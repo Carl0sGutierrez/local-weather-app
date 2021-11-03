@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Architecture
+The following high-level architecture shows that this Angular web application is completely decoupled from any backend. It is hosted on its web server, can comunicate with 
+a web API such as `OpendWeatherMap`, or optionally be paired with a backend infrastructure to unlock rich and custumized features that a web API alone can not provide,
+such as storing per-user preferences or complementing the OpenWeatherMap API's dataset with our own.
+
+![Untitled Workspace](https://user-images.githubusercontent.com/16527110/139997312-f0d54831-680e-485b-928a-ad243e050739.png)
